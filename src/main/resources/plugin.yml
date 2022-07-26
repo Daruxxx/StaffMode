@@ -1,0 +1,18 @@
+name: OceanStaff
+author: D4RUX
+version: 3.5.2
+main: me.darux.staffmode.Main
+api-version: 1.17
+commands:
+  mod:
+    aliases:
+      - staff
+      - modmode
+      - staffmode
+  freeze:
+    aliases:
+      - ss
+  vanish:
+    aliases:
+      - v
+  smreload:

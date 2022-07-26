@@ -1,0 +1,38 @@
+Commands:
+  mod:
+    permission: commands.staffmode
+Freeze:
+  Message:
+    delay: 5
+    message:
+      - ''
+      - ''
+      - '&f█ █ █ █ █ █ █ █ █'
+      - '&f█ █ █ █ &c█ &f█ █ █ █'
+      - '&f█ █ █ &c█ &0█ &c█ &f█ █ █'
+      - '&f█ █ &c█ &6█ &0█ &6█ &c█ &f█ █'
+      - '&f█ █ &c█ &6█ &0█ &6█ &c█ &f█ █'
+      - '&f█ █ &c█ &6█ &0█ &6█ &c█ &f█ █ &bYou have been frozen by a staff member.'
+      - '&f█ &c█ &6█ &6█ &6█ &6█ █ &c█ &f█ &bIf you disconnect you will be &3&lBANNED'
+      - '&c█ &6█ &6█ &6█ &0█ &6█ █ &6█ &c█ &bPlease connect to our TeamSpeak.'
+      - '&c█ &6█ &6█ &6█ &6█ &6█ █ &6█ &c█ &7&ots.yourserver.net'
+      - '&c█ █ █ █ █ █ █ █ █'
+      - '&f█ █ █ █ █ █ █ █ █'
+      - ''
+      - ''
+ModMode:
+  Message-on-Enable: true # Envia un mensaje a todos los staffs cuando alguien entra en staff mode
+  Message: "&8[&bStaff&8] &e%player% ha activado el staff mode"
+Messages:
+  unfreeze:
+    - ''
+    - '  &aHas sido descongelado por el staff %staff%'
+    - ' '
+  freeze:
+    - ''
+    - 'El staff %staff% te ha congelado'
+    - ''
+Titulos:
+  Freezeado:
+    title: '&cEstás congelado'
+    subtitle: '&7No te desconectes o serás baneado'
